@@ -1,15 +1,12 @@
 package dxc.bookstore.entities;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 @Entity
-//@Table(name = "Book")
 public class Book {
     @Id
     private String isbn;
