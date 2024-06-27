@@ -1,6 +1,6 @@
 # Bookstore API DXC
 
-This project was generated with;
+This project was generated with:
 
 Java (v17)
 
