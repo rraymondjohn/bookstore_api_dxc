@@ -12,7 +12,6 @@ import java.util.Set;
 //@Table(name = "Book")
 public class Book {
     @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String isbn;
     private String title;
     @ManyToMany (cascade = CascadeType.ALL)
